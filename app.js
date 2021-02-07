@@ -15,7 +15,7 @@ fetch('https://www.themealdb.com/api/json/v1/1/search.php?f='+mealInputFirstLete
     meals.forEach(meal => {
         console.log(meal);
         const newMeal = document.createElement('div'); // creating new div items for each meal items
-        let mealInfo = `<div>
+        const mealInfo = `<div>
              <img src=${meal.strMealThumb}>
              <h5>${meal.strMeal}</h5>
              </div>`
