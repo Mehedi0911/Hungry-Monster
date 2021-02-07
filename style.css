@@ -1,0 +1,23 @@
+.search-box{
+    margin: 5rem auto;
+}
+
+#mealContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+
+    
+}
+
+#mealContainer div{
+    background-color: rgb(240, 240, 240);
+    border-radius: 1rem;
+    overflow: hidden;
+    padding-bottom: 1rem;
+}
+
+#mealContainer div img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
