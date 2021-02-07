@@ -21,3 +21,24 @@
     width: 100%;
     margin-bottom: 1rem;
 }
+
+#mealContainer div h6{
+    color: lightcoral;
+}
+
+#mealDetails{
+    background-color: lightcyan;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: 3rem auto;
+    width: 35%;
+}
+
+#mealDetails img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#mealDetails h6{
+    color: lightsalmon;
+}
